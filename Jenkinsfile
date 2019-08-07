@@ -14,14 +14,14 @@ pipeline {
     }
     stage('Test') {
       steps {
-        sh '''#./jenkins/scripts/test.sh
-echo \'Test\''''
+        sh '''./jenkins/scripts/test.sh
+echo \'Test success\''''
       }
     }
     stage('Deliver') {
       steps {
-        sh '''#./jenkins/scripts/deliver.sh
-echo \'Deliver\''''
+        sh '''./jenkins/scripts/deliver.sh
+echo \'Deliver success\''''
       }
     }
   }
