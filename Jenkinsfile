@@ -4,9 +4,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        container("nodejs"){
-          sh 'npm install'
-        }
+        sh 'Build'
       }
     }
     stage('Test') {
