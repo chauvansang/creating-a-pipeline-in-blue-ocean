@@ -38,7 +38,7 @@ def create_dag(customer):
         'email': 'xyz@xyz.com',
         'retries': 1,
         'retry_delay': timedelta(minutes=5),
-        'start_date': datetime(2017, 1, 1, 0, 0),
+        'start_date': datetime(2019, 8, 12, 0, 0),
         'end_date': None
     }
 
